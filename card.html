@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: palegreen;
+        }
+
+        .card {
+            width: 17%;
+            text-align: center;
+            padding: 8px;
+            margin: 10px;
+            box-shadow: 0px 2px 3px black;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            height: 10%;
+        }
+
+        .card:hover {
+            transform: translate(5px);
+        }
+
+        .rating {
+            color: purple;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Products</h1>
+    <div class="section" align="center">
+        <div class="container">
+            <div class="card">
+                <div class="image">
+                    <img src="images/buy-2.jpg" alt="product-1">
+                </div>
+                <div>
+                    <h3>Sparx Shoes</h3>
+                    <p>Price: $25.00</p>
+                    <div class="rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/category-3.jpg" alt="product-2" width="65%">
+                </div>
+                <h3>Adidas Hoodie</h3>
+                <p>Price: $35.00</p>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/product-7.jpg" alt="product-3" width="58%">
+                </div>
+                <h3>HRX Shocks</h3>
+                <p>Price: $9.00</p>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/product-8.jpg" alt="product-4" width="58%">
+                </div>
+                <h3>Fossil Watch</h3>
+                <p>Price: $50.00</p>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="images/exclusive.png" alt="product-5" width="75%">
+                </div>
+                <h3>Fossil Watch</h3>
+                <p>Price: $50.00</p>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

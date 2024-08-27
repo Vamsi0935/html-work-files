@@ -1,23 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/435/573/original/abstract-dark-sci-fi-tunnel-with-green-light-seamless-loop-4k-3d-animation-background-free-video.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #013939;
+            width: 30%;
+            margin: 10% 0% 0% 32%;
+            padding: 2%;
+            opacity: 0.8;
+            border-radius: 5px;
+        }
+
+        .container input {
+            width: 70%;
+            padding: 2%;
+            background-color: #013939;
+            color: yellow;
+        }
+
+        .not {
+            color: white;
+        }
+
+        .container .btn {
+            width: 50%;
+            background-color: turquoise;
+            color: black;
+            font-size: 20px;
+            padding: 2%;
+            border: none;
+        }
+
+        .login {
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        .container .register {
+            padding: 2px;
+            color: yellowgreen;
+            font-size: 17px;
+            text-decoration: none;
+        }
+
+        .register:hover {
+            color: yellow;
+        }
+
+        .account {
+            color: white;
+            font-size: 17px;
+            padding: 5px;
+        }
+    </style>
 </head>
+
 <body>
-    <form action="form.html" target="_blank">
-        <p><h4>Username:</h4>
-            <input type="name" placeholder="Username" required>
-        </p>
-        <p><h4>Email:</h4>
-            <input type="email" placeholder="enter your email" required>
-        </p>
-        <p><h4>Password:</h4>
-            <input type="password" placeholder="enter your password" required>
-        </p>
-        <button>Submit</button>
-        <button>Reset</button>
-    </form>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="">
+            <!-- <div class="image">
+                <img src="images/robo_pic-removebg-preview.png" alt="robo pic" width="40%">
+            </div> -->
+            <p><input type="name" placeholder="Username" required></p>
+            <p><input type="email" placeholder="Enter your email" required></p>
+            <p><input type="password" placeholder="Enter your password" required></p>
+            <div class="not">
+                <a href="" class="register">Forget Password?</a>
+            </div>
+            <button class="btn">
+                <a href="msd.html" target="_blank" class="login">Login</a></button>
+            <div class="account">
+                Don't have an account?
+                <a href="form.html" target="_blank" class="register">Register</a>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
